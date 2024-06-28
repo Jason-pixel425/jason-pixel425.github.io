@@ -42,6 +42,8 @@ header h1 {
 
 nav {
     align-self: flex-end;
+    height: fit-content;
+
 }
 
 nav ul {
@@ -54,6 +56,7 @@ nav ul {
     align-items: flex-end;
     margin-bottom: 0.4rem;
     margin-top: 0;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -85,6 +88,32 @@ nav ul li a:active {
     background-color: #234245;
 }
 
+@media only screen and (width < 550px) {
+    header {
+        height: 7rem;
+    }
+
+    header h1 {
+        width: 10.07rem;
+    }
+}
+
+@media only screen and (width < 473px) {
+    .topList {
+        padding-bottom: 33px;
+    }
+
+    nav li {
+        padding-right: 1rem;
+    }
+}
+
+@media only screen and (width < 370px) {
+    nav {
+        display: none;
+    }
+}
+
 /* main content */
 .content {
     color: white;
@@ -93,6 +122,15 @@ nav ul li a:active {
 .divider {
     border-bottom: 5px solid black;
 }
+
+@media only screen and (width < 870px) {
+
+    .fortuneProject figure img,
+    .fortuneProject figure figcaption {
+        display: none;
+    }
+}
+
 
 /* footer */
 footer {
@@ -117,4 +155,12 @@ footer p a {
 
 footer p a:visited {
     color: white;
+}
+
+@media only screen and (width < 410px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.3rem;
+    }
 }
