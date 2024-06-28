@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <header>
+    <header class="top">
+
         <h1>Jason Fitzgerald</h1>
         <nav>
             <ul>
@@ -19,67 +20,74 @@
             </ul>
         </nav>
     </header>
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            Hello and welcome to my portfolio website!
-            Sorry for how basic it is currently. I am an aspiring full-stack engineer learning through Codecademy!
-            I am a student in the third and final year of a Bachelor of
-            Information Technology at the University of Southern Queensland, majoring in
-            Networking and Security, and Applied Computer Science. Alongside my degree,
-            I am undertaking a Full Stack Engineering course on Codecademy, expanding
-            my skills in web development.
-        </p>
-    </section>
-    <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <p>I have several offline projects, mostly static web pages. Unfortunatly, I currently only have one other
-            project on GitHub.</p>
-        <article class="fortuneProject">
-            <h3>Random Fortune - JavaScript</h3>
+    <div class="content">
+        <section id="about" class="about">
+            <h2>About Me</h2>
             <p>
-                This is a portfolio project that was created as part of the Codecademy Full-stack engineering career
-                course.
-                This simple program logs a somewhat random fortune to the console. There are four words that are
-                randomly selected from four seperate random arrays.
-                The program was constructed this way instead of being completly random so that the sentence produced
-                makes sense
+                Hello and welcome to my portfolio website!
+                Sorry for how basic it is currently. I am an aspiring full-stack engineer learning through Codecademy!
+                I am a student in the third and final year of a Bachelor of
+                Information Technology at the University of Southern Queensland, majoring in
+                Networking and Security, and Applied Computer Science. Alongside my degree,
+                I am undertaking a Full Stack Engineering course on Codecademy, expanding
+                my skills in web development.
             </p>
-            <figure>
-                <img src="../CSS/Images/randomFortune.PNG" alt="Output of randomFortune">
-                <figcaption>The random words in the example: "embrassment", "plan", "love", and "creativity".
-                </figcaption>
-            </figure>
-            <p>
-                It can also be expanded upon in the future via the following:
-            </p>
+        </section>
+        <div class="divider"></div>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
 
+            <p>I have several offline projects, mostly static web pages. Unfortunatly, I currently only have one other
+                project on GitHub.</p>
+            <article class="fortuneProject">
+                <h3>Random Fortune - JavaScript</h3>
+                <p>
+                    This is a portfolio project that was created as part of the Codecademy Full-stack engineering career
+                    course.
+                    This simple program logs a somewhat random fortune to the console. There are four words that are
+                    randomly selected from four seperate random arrays.
+                    The program was constructed this way instead of being completly random so that the sentence produced
+                    makes sense
+                </p>
+                <figure>
+                    <img src="../CSS/Images/randomFortune.PNG" alt="Output of randomFortune">
+                    <figcaption>The random words in the example: "embrassment", "plan", "love", and "creativity".
+                    </figcaption>
+                </figure>
+                <p>
+                    It can also be expanded upon in the future via the following:
+                </p>
+
+                <ul>
+                    <li>Adding different sentence foundations for the words to be inserted in. These foundations would
+                        be
+                        randomly selected.</li>
+                    <li>Adding more words to be selected in the arrays</li>
+                    <li>Making more of the words random while ensuring the sentence still makes sense</li>
+                </ul>
+            </article>
+        </section>
+        <div class="divider"></div>
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <p>I am currently proficient in:</p>
             <ul>
-                <li>Adding different sentece foundations for the words to be inseted in. These foundations would be
-                    randomly selected.</li>
-                <li>Adding more words to be selected in the arrays</li>
-                <li>Making more of the words random while ensuring the sentece still makes sense</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
             </ul>
-        </article>
-    </section>
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <p>I am currently proficient in:</p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-        </ul>
-        <p>I am still working through Codecademy and my Bachelor and therefore, these skills are stil being improved
-            upon.</p>
-    </section>
+            <p>I am still working through Codecademy and my Bachelor and therefore, these skills are still being
+                improved
+                upon.</p>
+        </section>
+    </div>
 </body>
 
 <footer id="contact" class="contact">
-    <p>Jason Fitzgerald</p>
-    <p><a href="https://github.com/Jason-pixel425">Visit my GitHub profile</a></p>
-    <p>Contact: jasonfitzg2798@gmail.com</p>
+    <p class="name">Jason Fitzgerald</p>
+    <p><a href="https://github.com/Jason-pixel425" target="_blank">Visit my GitHub profile</a></p>
+    <p class="email">Contact: jasonfitzg2798@gmail.com</p>
 </footer>
 <script src="../JavaScript/javascript.js"></script>
 
